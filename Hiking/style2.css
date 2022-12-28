@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: url(../../PSD/Hiking/Image/hiking\ image.png)no-repeat center/cover;
+    background-size: cover;
+}
+
+.wraper {
+    background: wheat;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.lets{
+    text-align: center;
+}
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 0px;
+    text-indent: 80px;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.search i {
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+
+}
+.al-c{
+    align-items: center;
+}
+.row {
+    display: flex;
+}
+
+.col-50 {
+    padding: 0px 0px 0px 0px;
+    width: 50%;
+}
+.col-500{
+    width: 40%;
+    padding: 20px;
+}
+.wh{
+    color: white;
+}
+.read{
+    color: white;
+    background-color: orange;
+    border-radius: 37px;
+}
+
+.text {
+    color: orange;
+    font-size: 30px;
+    padding: 100px 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+
+}
+.bt{
+    margin: 20px 0px 10px 20px;
+    border-radius: 30px;
+}
+button {
+    margin: 10px 0px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 37px;
+    background-color: #7f7770;
+}
+
+#unique {
+    background: url(../../PSD/Hiking/Image/Background.png);
+}
+
+h2 {
+    font-size: 50px;
+    /* align-items: center; */
+    color: orange;
+}
+h4{
+    font-size: 50px;
+    color: white;
+}
+
+.row {
+    gap: 20px;
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+.thar1 {
+    padding: 0px;
+    background-color:  #7f7770;
+}
+
+.thar2 {
+    padding: 0px;
+    background-color:  #7f7770;
+}
+.thar3 {
+    padding: 0px;
+    background-color:  #7f7770;
+}
+.hy{
+    text-align: center;
+    
+}
+.button{
+    
+    color: white;
+    background-color: #7f7770;
+}
+#section{
+    background-color: #7f7770;
+}
+h3{
+    color: wheat;
+}
+.stop{
+    color: white;
+}
+#section2{
+    background-color: orangered;
+}
+.col-501{
+    width: 50%;
+    margin: 0px;
+    padding: 60px 0px 20px 60px;
+}
+#hiking{
+    background-color: #7f7770;
+    
+}
+
+
+.king{
+    font-size: 40px;
+
+}
+.mountain{
+    text-align: center;
+    padding: 100px 0px 100px 40px;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(198,197,196,0.75));
+    
+}
+
