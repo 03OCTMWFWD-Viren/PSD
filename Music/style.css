@@ -4,7 +4,7 @@
     box-sizing: border-box;
     }
 #header{
-    background: url(../../PSD/Music/image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(1\).png) no-repeat center/cover;
+    background: url(../Music/image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(1\).png) no-repeat center center/cover;
     }
 .container{
     width: 1400px;
@@ -70,6 +70,10 @@ p{
     color: #ffffff;
     font-weight: 400;
 }
+  /* header css end here   */
+
+  /* section start here   */
+
 #unique{
     background-color: orangered;
 }
@@ -106,6 +110,9 @@ h2{
     text-align: center;
     padding: 30px;
 }
+  /* section end here  */
+  /* section start here  */
+
 #hello{
     background-color: #303030;
 }
@@ -149,6 +156,8 @@ h3{
     border-radius: 0px;
     background-color: #303030;
 }
+  /* section end here  */
+  /* section start here  */
 
 .section-wraper{
     background-color: #e8631c;
@@ -167,6 +176,9 @@ h4{
 .nice{
     padding: 180px 10px 5px 40px;
 }
+/* section end here  */
+/* section start here  */
+
 #our{
     background-color: #303030;
 }
@@ -198,6 +210,9 @@ h5{
     font-size: 30px;
     padding: 10px;
 }
+/* section end here  */
+/* section start here  */
+
 #bgi{
     background: url(../../PSD/Music/image/grup-7\ back.img.png)no-repeat center/cover;
     
@@ -223,6 +238,9 @@ h6{
     font-size: 42px;
     text-align: center;
 }
+/* section end here  */
+/* section start here  */
+
 #subscribe{
     background-color: #e8631c;
 }
@@ -252,6 +270,9 @@ input{
     padding: 12px 200px 10px 150px;
     text-align: center;
 }
+/* section end here  */
+/* section start here  */
+
 #last{
     background-color: #303030;
 }
@@ -262,7 +283,7 @@ input{
     align-items: center;
 }
 .css{
-    line-height:25px;
+    line-height:35px;
 }
 .music{
     font-size: 30px;  
@@ -272,7 +293,7 @@ input{
     font-size: 30px;
     padding: 0px 5px 0px 2px;
 }
-.row-3{
+.row{
     display: flex;
     justify-content: space-between;
 }
@@ -280,3 +301,7 @@ input{
 .moj{
     padding: 50px 0px 50px 0px;
 }
+/* section end here  */
+
+/* media query start here  */
+
