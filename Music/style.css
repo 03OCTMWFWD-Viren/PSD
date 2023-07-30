@@ -1,145 +1,166 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-#header{
+}
+
+#header {
     background: url(../Music/image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(1\).png) no-repeat center center/cover;
-    }
-.container{
+}
+
+.container {
     width: 1400px;
+    /* width: 100%; */
     margin: 0 auto;
 }
-.con-wraper{
+
+/* .con-wraper{
     width: 1400px;
+    width: 100%;
     margin: 0 auto;
-}
-li, a{
+} */
+li,
+a {
     text-decoration: none;
     color: white;
+    padding: 30px;
 }
-.wraper{
-    background:#303030;
+
+.wraper {
+    background: #303030;
 }
-.navmenu{
+
+.navmenu {
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin: 0;
-    text-indent: 90px ;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
     align-items: center;
-    
-}
-.search i{
 
-    color: #ffffff ;
+}
+
+.search i {
+
+    color: #ffffff;
     font-size: 25px;
 }
-.row{
-    display: flex;
-}
-.col-50{
+
+.col-50 {
     width: 50%;
+    /* width: 100%; */
 }
-.text{
+
+.text {
     padding: 100px 0px;
     margin-bottom: 20px;
 }
-button{
-    
+
+button {
+
     margin: 10px 0px 100px;
     padding: 10px 30px;
     font-size: 25px;
     color: white;
     text-align: center;
     border-radius: 0px;
-    background-color:orangered;
+    background-color: orangered;
 }
-h1{
+
+h1 {
     font-size: 70px;
     color: white;
 }
-p{
+
+p {
     padding: 0px 0px 20px;
     font-size: 20px;
     color: #ffffff;
     font-weight: 400;
 }
-  /* header css end here   */
 
-  /* section start here   */
+/* header css end here   */
 
-#unique{
+/* section start here   */
+
+#unique {
     background-color: orangered;
 }
-.width{
+
+.width {
     padding: 50px 150px;
 }
-.text-wraper{
+
+.text-wraper {
     padding: 0px 200px;
 }
-h2{
+
+h2 {
     font-size: 40px;
     text-align: center;
     color: white;
 }
-.state{
+
+.state {
     height: 800px;
 }
-.row{
-    gap: 20px;
-}
+
 .col-33 {
     width: 33.33%;
-    background-color: #303030;
-}
-.disc{
-    text-align: center;
-    padding: 30px;                    
-}
-.square{
-    text-align: center;
-    padding: 30px;
-}
-.circle{
-    text-align: center;
-    padding: 30px;
-}
-  /* section end here  */
-  /* section start here  */
-
-#hello{
+    /* width: 100%; */
     background-color: #303030;
 }
 
-.state-1{
-    width: 100%;
+.disc {
+    text-align: center;
+    padding: 30px;
+}
+
+.square {
+    text-align: center;
+    padding: 30px;
+}
+
+.circle {
+    text-align: center;
+    padding: 30px;
+}
+
+/* section end here  */
+/* section start here  */
+
+#hello {
+    background-color: #303030;
+}
+
+.state-1 {
+    /* width: 100%; */
     height: 840px;
 }
-.row{
+
+.row {
     display: flex;
     gap: 20px;
 }
-.basic{
+
+.basic {
     padding: 40px 0px 0px;
     text-align: center;
     background-color: #e8631c;
 }
-h3{
+
+h3 {
     font-size: 40px;
     text-align: center;
     color: white;
 }
-.col-33{
-    width: 33.33%;
-    
-}
-.para{
+
+.para {
     padding: 0px 5px 10px 30px;
     text-indent: 3px;
     align-items: center;
@@ -147,7 +168,8 @@ h3{
     color: #ffffff;
     font-weight: 400;
 }
-.amount{
+
+.amount {
     margin: 0px 30px 40px;
     padding: 20px 150px;
     font-size: 25px;
@@ -156,152 +178,193 @@ h3{
     border-radius: 0px;
     background-color: #303030;
 }
-  /* section end here  */
-  /* section start here  */
 
-.section-wraper{
-    background-color: #e8631c;
-}
-.row{
-    display: flex;
-}
-h4{
-    font-size: 50px;
-    color: white;
-}
-.col-50{
-    width: 50%;
-    
-}
-.nice{
-    padding: 180px 10px 5px 40px;
-}
 /* section end here  */
 /* section start here  */
 
-#our{
+.section-wraper {
+    background-color: #e8631c;
+}
+
+.row {
+    display: flex;
+}
+
+h4 {
+    font-size: 50px;
+    color: white;
+}
+
+.nice {
+    padding: 180px 10px 5px 40px;
+}
+
+/* section end here  */
+/* section start here  */
+
+#our {
     background-color: #303030;
 }
-.stati{
+
+.stati {
     font-size: 45px;
     text-align: center;
     color: wheat;
     padding: 150px 0px 0px 0px;
 }
-.tag p{
+
+.tag p {
     padding: 20px 300px 50px 300px;
     text-align: center;
     font-size: 20px;
 }
 
-.col-33{
-    width: 33.33%;
-}
-.col-wrapper{
+
+.col-wrapper {
     padding-bottom: 150px;
 }
-h5{
+
+h5 {
     font-size: 45px;
     color: white;
     text-align: center;
 }
-.club{
+
+.club {
     text-align: center;
     font-size: 30px;
     padding: 10px;
 }
+
 /* section end here  */
 /* section start here  */
 
-#bgi{
-    background: url(../../PSD/Music/image/grup-7\ back.img.png)no-repeat center/cover;
-    
+#bgi {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Music/image/grup-7\ back.img.png)no-repeat center/cover;
 }
-.bgi-wraper{
+
+.bgi-wraper {
     height: 990px;
 }
-.con-2{
+
+.con-2 {
     width: 1000px;
+    /* width: 100%; */
     margin: 0 auto;
 }
-.main-text{
+
+.col-50 .ad {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.main-text {
     text-align: center;
     padding: 390px 80px 380px 80px;
 }
-.lorem{
+
+.lorem {
     font-size: 25px;
     text-align: center;
-    
+
 }
-h6{
+
+h6 {
     color: white;
     font-size: 42px;
     text-align: center;
 }
+
 /* section end here  */
 /* section start here  */
 
-#subscribe{
+#subscribe {
     background-color: #e8631c;
 }
-.sub-wra{
+
+.sub-wra {
     height: 500px;
 }
-.sub{
+
+.sub {
     font-size: 45px;
     text-align: center;
 }
-.group-7{
+
+.group-7 {
     font-size: 25px;
-    
+
 }
-.write{
+
+.write {
     text-align: center;
     padding: 100px 90px 50px 90px;
 }
-.end{
+
+.end {
     text-align: center;
     padding: 10px 10px;
     color: white;
     background-color: #303030;
 }
-input{
+
+input {
     font-size: 20px;
     padding: 12px 200px 10px 150px;
     text-align: center;
 }
+
 /* section end here  */
 /* section start here  */
 
-#last{
+#last {
     background-color: #303030;
 }
 
-.pos{
+.pos {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.css{
-    line-height:35px;
+
+.css {
+    line-height: 35px;
 }
-.music{
-    font-size: 30px;  
+
+.music {
+    font-size: 30px;
 }
-.search-2 i{
-    color: #ffffff ;
+
+.search-2 i {
+    color: #ffffff;
     font-size: 30px;
     padding: 0px 5px 0px 2px;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
 }
 
-.moj{
+.moj {
     padding: 50px 0px 50px 0px;
 }
+
 /* section end here  */
 
 /* media query start here  */
 
+/* @media (min-width: 576px) {
+    .container{
+        width: 520px;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .col-25{
+        width: 100%;
+    }
+    .col-33{
+        width: 100%;
+    }
+}  */

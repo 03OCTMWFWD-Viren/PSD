@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: url(./image/shushigrup-1bgimg.png) no-repeat center/cover;
+}
+
+.wraper {
+    background-color: #21243d;
+}
+
+.container {
+    /* width: 1400px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    padding: 50px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    color: wheat;
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-50 {
+    /* width: 50%; */
+    width: 100%;
+}
+
+.text {
+    padding: 50px 0px 50px 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.btn {
+    border-radius: 37px;
+    padding: 8px 44px;
+    font-size: 20px;
+    color: white;
+    background-color: #21243d;
+}
+
+#unique {
+    background-color: #21243d;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px 0px 0px;
+}
+
+.para {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 0px 180px 0px 180px;
+    line-height: 35px;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.col-33 {
+    /* width: 33.33%; */
+    width: 100%;
+}
+
+.circle {
+    text-align: center;
+}
+
+.col-wra {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.lorem {
+    padding: 10px 0px 0px 45px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.section-wraper {
+    background-color: #ffd17e;
+}
+
+.img {
+    text-align: center;
+    padding: 40px 100px 40px 100px;
+}
+
+.imgs {
+    border-radius: 50%;
+}
+
+.center {
+    padding: 150px 0px 0px 0px;
+}
+
+.title {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 470px 0px 0px;
+}
+
+.para-2 {
+    color: blue;
+    font-size: 25px;
+}
+
+.sec-wra {
+    background-color: #21243d;
+}
+
+.new {
+    padding: 40px 10px 80px 10px;
+}
+
+.elit {
+    text-align: center;
+    font-size: 25px;
+}
+
+.circle- {
+    text-align: center;
+    padding: 100px;
+    border-radius: 50%;
+    color: #ffffff;
+    border: 5px solid #ffffff;
+}
+
+h4 {
+    font-size: 60px;
+}
+
+.wra-sec {
+    background-color: #21243d;
+}
+
+.ele-wra {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.ele {
+    text-align: center;
+}
+
+.comment p {
+    text-align: center;
+    padding: 30px 100px 20px 100px;
+    font-size: 30px;
+}
+
+h5 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+#flow {
+    height: 480px;
+    background-color: #ffd17e;
+}
+
+.here-wra {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+h6 {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+
+.here p {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+}
+
+.form {
+    text-align: center;
+    position: relative;
+}
+
+input {
+    padding: 10px 0;
+    border-radius: 37px;
+    width: 350px;
+}
+
+.sub {
+    padding: 10px 20px 10px 30px;
+    border-radius: 37px;
+    color: white;
+    background-color: #21243d;
+    position: absolute;
+    right: 430px;
+}
+
+.footer-wra {
+    height: 480px;
+    background-color: #111111;
+}
+
+.tight {
+    font-size: 40px;
+    color: white;
+    padding: 100px 0px 0px 0px;
+}
+
+.paragraph {
+    font-size: 25px;
+    color: white;
+}
+
+.search {
+    font-size: 25px;
+    color: white;
+    word-spacing: 10px;
+}
+
+.para2 p {
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+}
+
+/* media query start here  */
+
+@media (min-width: 576px) {
+    * {
+        /* overflow-x: hidden; */
+    }
+
+    .container {
+        width: 520px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .col-33 {
+        width: 100%;
+    }
+
+    .para {
+        padding: 0px 0px;
+    }
+
+    .lorem {
+        text-align: center;
+    }
+
+    .col-wra {
+        padding-bottom: 0px;
+    }
+
+    .not {
+        width: 100%;
+    }
+
+    .center {
+        padding-top: 0px;
+    }
+
+    .title {
+        padding: 0px;
+    }
+
+    .new {
+        padding-bottom: 40px;
+    }
+
+    .comment p {
+        padding: 0px;
+    }
+
+    .ele-wra {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .here-wra {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .here p {
+        padding: 0px;
+    }
+
+    .sub {
+        right: 10%;
+    }
+
+    #flow {
+        padding: 0px;
+    }
+
+    .tight {
+        padding: 20px 0px;
+    }
+}
+
+/* /////////////////////// */
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .col-33 {
+        width: 100%;
+    }
+
+    .text {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .imgs {
+        width: 50%;
+    }
+
+    .circle- {
+        border-radius: 70%;
+        margin: 10px 100px;
+    }
+
+    .not {
+        width: 70%;
+    }
+
+    #flow {
+        padding: 50px 0px;
+    }
+
+    input {
+        margin-right: 15%;
+    }
+
+    .sub {
+        right: 20%;
+    }
+}
+
+/* //////////////////// */
+@media (min-width:992px) {
+    .container {
+        width: 920px;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .col-33 {
+        width: 33.33%;
+    }
+
+    .imgs {
+        width: 70%;
+    }
+
+    .lorem {
+        padding: 10px 25px;
+    }
+
+    .not {
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .center {
+        margin: 50px 20px;
+    }
+
+}
